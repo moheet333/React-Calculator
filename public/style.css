@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-color: #dae1ff;
+    background-blend-mode: lighten;
+    font-family: 'Crimson Text', serif;
+}
+
+.box {
+    width: 19.55rem;
+    height: 29.125rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 15px 40px black;
+    cursor: pointer;
+    border: 2px solid rgb(71, 70, 70);
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:  4.66rem 4.66rem 4.66rem 4.66rem 4.66rem;
+    background-color: #2196F3;
+}
+
+.grid-item {
+    background-color: #FF7C7C;
+    border: 1px solid #B9005B;
+    color: #FEE0C0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.grid-item:hover {
+    opacity: 0.9;
+}
+
+.display {
+    width: 100%;
+    height: 20%;
+    padding: 4%;
+    background-color: #820000;
+    font-family: 'Roboto', sans-serif; 
+    text-align: right;
+    cursor: no-drop; 
+    overflow: auto; 
+    border: 1px solid rgb(71, 70, 70);
+}
+
+.displayH1 {
+    color: #ffffff
+}
+
+.acButton {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 55px;
+    padding-top: 18px;
+}
+
+.equalButton {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding-left: 70px;
+    padding-top: 18px;
+}
+
+.deleteButton {
+    padding-top: 20px;
+    padding-right: 3px;
+    padding-left: 18px;
+}
+
+.pointButton {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.divideButton {
+    padding-left: 34px;
+    padding-top: 20px;
+}
+
+.multiplyButton {
+    padding-top: 23px;
+    padding-left: 30px;
+}
+
+.addButton {
+    padding-left: 30px;
+    padding-top: 17px;
+}
+
+.substractButton {
+    padding-left: 33px;
+    padding-top: 15px;
+}
